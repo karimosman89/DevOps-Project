@@ -35,10 +35,6 @@ jobs:
       working-directory: ./frontend
       run: npm install
 
-    - name: Ensure public/index.html exists
-      run: ls ./frontend/public/index.html
-      working-directory: ./frontend
-
     - name: Run frontend build
       working-directory: ./frontend
       run: npm run build
