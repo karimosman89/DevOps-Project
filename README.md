@@ -18,13 +18,7 @@ This project demonstrates a full-stack application with automated CI/CD, contain
 
 ```bash
 docker-compose up
-
- **Kubernetes**
-
-kubectl apply -f ./k8s/
-
-### Infrastructure with Terraform
- 
+kubectl apply -f ./k8s/ 
 cd infra
 terraform init
 terraform apply
